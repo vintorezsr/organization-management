@@ -1,0 +1,7 @@
+﻿@model IEnumerable<UnitType>
+@{
+    ViewData["Title"] = "Unit Type";
+}
+@foreach (var unitType in Model) {
+    <h1>@unitType.Name</h1>
+}

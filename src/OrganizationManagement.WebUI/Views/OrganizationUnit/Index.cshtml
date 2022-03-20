@@ -1,0 +1,7 @@
+﻿@model IEnumerable<OrganizationUnit>
+@{
+    ViewData["Title"] = "Organization Unit";
+}
+@foreach (var organizationUnit in Model) {
+    <h1>@organizationUnit.Name</h1>
+}

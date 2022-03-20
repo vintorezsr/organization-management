@@ -1,0 +1,7 @@
+﻿@model IEnumerable<Job>
+@{
+    ViewData["Title"] = "Job";
+}
+@foreach (var job in Model) {
+    <h1>@job.Name</h1>
+}
